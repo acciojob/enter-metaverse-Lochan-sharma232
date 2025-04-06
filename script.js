@@ -4,8 +4,8 @@ let myBtn=document.getElementById("enterBtn");
 let status=document.getElementById("status");
 let enteredMetaverse=document.getElementById("enteredMetaverse");
 function changetext(){
-	status.innerText="Enter the Metaverse";
-	enteredMetaverse.innerText="Entered Metaverse";
+	status.innerHTML="Enter the Metaverse";
+	enteredMetaverse.innerHTML="Entered Metaverse";
 }
 myBtn.addEventListener("click",(e)=>{
 	console.log(clicked);
