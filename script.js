@@ -7,5 +7,5 @@ function changetext(){
 	parent.innerHTML="<H1>Entered Metaverse</H1>";
 }
 myBtn.addEventListener("click",(e)=>{
-	console.log(clicked);
+changetext();
 });
