@@ -3,7 +3,7 @@ let parent=document.getElementById("parent");
 
 function changetext(){
 	parent.innerHTML="";
-	parent.innerHTML=`<H1 id="status">Entered Metaverse</H1>`;
+	parent.innerHTML=`<h1 id="status">Entered Metaverse</h1>`;
 }
 myBtn.addEventListener("click",(e)=>{
 	changetext();
